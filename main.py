@@ -1,2 +1,3 @@
-print('hello world')
-print('test')
+import torch
+
+print(torch.cuda.get_device_name())
